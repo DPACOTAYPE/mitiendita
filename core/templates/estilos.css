@@ -1,0 +1,100 @@
+.d-login{
+ height: 100vh;
+ font-family: Roboto;
+}
+.d-header{
+height:106px;
+box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.16);
+background-image: linear-gradient(to bottom, #7d001a, #ff001a);
+margin-bottom:57px;
+}
+
+.d-main{
+height:calc(100% - 271px);
+}
+.d-footer{
+margin-top:22px;
+height:86px;
+border: solid 1px #707070;
+background-image: linear-gradient(to bottom, #fa001a, #7f001a);
+}
+
+.d-section{
+    height: 600px;
+    border-radius: 30px;
+    border: solid 1px #1e64b5;
+    background-color: rgba(88, 90, 106, 0.09);
+
+}
+.d-h2{
+padding:30px;
+font-weight:bold;
+color: #161414;
+}
+
+.d-h2tiendita{
+color: #434343;
+font-family: Verdana;
+}
+.d-input{
+border: solid 1px #1e64b5 !important;
+}
+.d-form{
+width:800px;
+padding-left:300px;
+}
+
+.d-form-rb{
+width:900px;
+margin-left:110px;
+
+}
+.d-label{
+font-weight:bold;
+color: #686868;
+letter-spacing: 0.08px;
+}
+
+.d-small{
+color: rgba(13, 44, 117, 0.7);
+font-weight:bold;
+font-size:20px;
+}
+.d-intruccion{
+color: rgba(54, 57, 64, 0.7);
+font-size:20px;
+
+}
+
+.d-button{
+border: solid 1px #141313;
+background-color: rgba(30, 100, 181, 0.18);
+color: #686868;
+font-weight:bold;
+font-size:20px;
+}
+
+.d-titulo1{
+ font-family: Verdana;
+ color: #f1f1f1;
+}
+.d-titulo2{
+ padding-left:113px;
+ padding-top:15px;
+ font-weight: 300;
+ font-stretch: condensed;
+ letter-spacing: 1.2px;
+ color: #ffffff;
+}
+
+.d-img{
+ opacity: 0.8;
+ border-radius: 20px;
+}
+
+.d-iconos{
+width:1040px;
+font-family: Roboto;
+letter-spacing: 0.6px;
+lcolor: #000000;
+}

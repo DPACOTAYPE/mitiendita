@@ -1,0 +1,13 @@
+body{
+ height: 100vh;
+}
+header{
+height:106px;
+}
+
+main{
+height:calc(100% - 192px);
+}
+footer{
+height:86px;
+}
