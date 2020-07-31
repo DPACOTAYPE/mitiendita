@@ -1,0 +1,81 @@
+
+.N-pintar{
+	background-color: #F2D4D7;
+}
+
+nav,.N-footer{
+    background: linear-gradient(90deg,#EA1D26, #A91B0D);
+}
+
+.N-card{
+	background-color: #F2D4D7;
+	
+}
+.N-fondoFooter{
+	background-color: white;
+}
+
+.N-one, .N-two, .N-three{
+    position:absolute;
+	margin-top:-10px;
+	z-index:1;
+	height:40px;
+	width:40px;
+	border-radius:25px;
+	
+}
+
+
+
+
+.N-letra{
+	color: white;
+}
+.N-letra2{
+	color: black;
+	width: 35px !important;
+    height: 29px !important;
+	
+}
+.N-letra3{
+	color: white;
+	width: 35px !important;
+    height: 29px !important;
+	
+}
+.N-links{
+	color: black;
+	background-color: transparent;
+	
+}
+.N-links:hover{
+	color: black;
+	background-color: transparent;
+	
+}
+
+
+
+
+
+
+.N-cartera{
+	color: #E98F59;
+}
+.N-one{
+	left:25%;
+}
+.N-two{
+	left:50%;
+}
+.N-three{
+	left:75%;
+}
+
+.N-warning-color{
+	background-color:#53AEFF;
+}
+
+.N-no-color{
+	background-color: lightslategray;
+}

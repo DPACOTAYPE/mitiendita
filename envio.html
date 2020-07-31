@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="./pago.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+
+  <title>Document</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-sm navbar-dark bg-primary">
+    <div class="col-3">
+        <a class="navbar-brand" href="#"><i class="fas fa-shopping-bag N-cartera mr-2"></i>
+            <h3 class="d-inline">MI TIENDITA</h3>
+        </a>
+    </div>
+
+    <div class="col-6 N-letra">
+        <h5>Siempre a la mano</h5>
+    </div>
+
+    <div class="col-3 ">
+        <div class="row">
+            <a class="col-4 N-links" href="#">
+                <div class="col-12 text-center"><i class="fas fa-handshake N-letra2"></i></div>
+                <div class="col-12">Afiliate</div>
+            </a>
+            <a class="col-4 N-links" href="#">
+                <div class="col-12 text-center"><i class="fas fa-user N-letra2"></i></div>
+                <div class="col-12">cuenta</div>
+            </a>
+            <a class="col-4 N-links" href="#">
+                <div class="col-12 text-center "><i class="fas fa-shopping-cart N-letra2"></i></div>
+                <div class="col-12">carrito</div>
+            </a>
+        </div>
+    </div>
+
+
+</nav>
+  <section class="container-fluid mt-5 mb-5">
+    <div class="row">
+
+      <div class="col-lg-7">
+        <div class="card N-pintar">
+          <div class="card-body">
+            <div class="col-lg-12 mb-4">
+
+              <!-- Pills navs -->
+              <div class="col-lg-12 mb-4">
+                <div class="col-lg-12 mb-4">
+                  <div class="progress">
+                    <div class="N-one N-warning-color"></div>
+                    <div class="N-two N-no-color"></div>
+                    <div class="N-three N-no-color"></div>
+                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-success"
+                        style="width: 25%"></div>
+                </div>
+                </div>
+
+            </div>
+
+
+              <div class="pt-4">
+                <!-- ############################## PRIMERA PANTALLA -->
+
+                <div class="tab-pane" id="N-envio" >
+
+                  <!--Card content-->
+                  <form>
+
+                    <!-- ##############################primera fila   -->
+                    <!--Grid row-->
+                    <div class="row">
+
+                      <!--Grid column-->
+                      <div class="col-md-6 mb-4">
+
+                        <!--firstName-->
+                        <label for="N-nombre" class="">Nombres*</label>
+                        <input type="text" id="N-nombre" class="form-control">
+
+                      </div>
+                      <!--Grid column-->
+
+                      <!--Grid column-->
+                      <div class="col-md-6 mb-2">
+
+                        <!--lastName-->
+                        <label for="N-apellido" class="">Apellidos*</label>
+                        <input type="text" id="N-apellido" class="form-control">
+
+                      </div>
+                      <!--Grid column-->
+
+                    </div>
+                    <!--Grid row-->
+
+                    <!-- ##############################segunda fila   -->
+                    <!--Grid row-->
+                    <div class="row">
+
+                      <!--Grid column-->
+                      <div class="col-md-6 mb-4">
+
+                        <!--firstName-->
+                        <label for="N-celular" class="">Celular*</label>
+                        <input type="text" id="N-celular" class="form-control">
+
+                      </div>
+                      <!--Grid column-->
+
+                      <!--Grid column-->
+                      <div class="col-md-6 mb-2">
+
+                        <!--lastName-->
+                        <label for="N-email" class="">Correo Electronico*</label>
+                        <input type="text" id="N-email" class="form-control">
+
+                      </div>
+                      <!--Grid column-->
+
+                    </div>
+                    <!--Grid row-->
+
+                    <!-- ##############################tercera fila   -->
+                    <!--Grid row-->
+                    <div class="row">
+
+                      <!--Grid column-->
+                      <div class="col-lg-4 col-md-12 mb-4">
+
+                        <label for="N-departamento">Departamento</label>
+                        <select class="custom-select d-block w-100" id="N-departamento" required>
+                          <option value="">Escoga...</option>
+                          <option>Lima</option>
+                          <option>Trujillo</option>
+                          <option>Arequipa</option>
+                        </select>
+                      </div>
+                      <!--Grid column-->
+
+                      <!--Grid column-->
+                      <div class="col-lg-4 col-md-6 mb-4">
+
+                        <label for="N-provincia">Provincia</label>
+                        <select class="custom-select d-block w-100" id="N-provincia" required>
+                          <option value="">Escoga...</option>
+                          <option>Lima</option>
+                          <option>Cañete</option>
+                          <option>Canta</option>
+                          <option>Huaral</option>
+                          <option>Yauyos</option>
+                        </select>
+                      </div>
+                      <!--Grid column-->
+
+                      <!--Grid column-->
+                      <div class="col-lg-4 col-md-6 mb-4">
+
+                        <label for="N-distrito">Distrito</label>
+                        <select class="custom-select d-block w-100" id="N-distrito" required>
+                          <option value="">Escoga...</option>
+                          <option>Ancon</option>
+                          <option>Ate</option>
+                          <option>Barranco</option>
+                          <option>Breña</option>
+                          <option>Carabayllo</option>
+                        </select>
+                      </div>
+                      <!--Grid column-->
+
+                    </div>
+                    <!--Grid row-->
+
+                    <!-- ##############################cuarta fila   -->
+                    <!--Grid row-->
+                    <div class="row">
+
+                      <!--Grid column-->
+                      <div class="col-md-8 mb-6">
+
+                        <!--firstName-->
+                        <label for="N-direccion" class="">Direccion*</label>
+                        <input type="text" id="N-direccion" class="form-control">
+
+                      </div>
+                      <!--Grid column-->
+
+                      <!--Grid column-->
+                      <div class="col-md-4 mb-6">
+
+                        <!--firstName-->
+                        <label for="N-numero" class="">Nro*</label>
+                        <input type="text" id="N-numero" class="form-control">
+
+                      </div>
+                      <!--Grid column-->
+
+                    </div>
+                    <!--Grid row-->
+
+                    <!-- ##############################quinta fila   -->
+                    <hr>
+                    <div class="mb-1">
+                      <input type="checkbox" class="form-check-input filled-in" id="N-chekboxRules">
+                      <label class="form-check-label" for="N-chekboxRules">Acepto los terminos y condiciones</label>
+                    </div>
+                    <hr>
+                    <button class="btn btn-primary btn-lg btn-block" type="submit">Siguiente</button>
+
+                  </form>
+                </div>
+
+
+
+
+              </div>
+
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-5">
+        <div class="card N-pintar">
+          <div class="card-body">
+            <div class="col-lg-12 mb-4">
+
+              <button class="btn btn-primary btn-lg btn-block" type="submit">Productos a Pagar</button>
+
+              <!--Card-->
+              <div class="card">
+
+                <!--Card content-->
+                <div class="card-body N-pintar">
+                  <h4 class="mb-4 mt-1 h5 text-center font-weight-bold">Resumen</h4>
+
+                  <hr>
+
+                  <div class="row ">
+                    <div class="col-sm-8 d-flex justify-content-center">
+                      <div class="col-sm-7 " style="background-color: yellow;height: 150px; width: 250px;"></div>
+                      <div class="col-sm-5 ">
+                        <p class="d-flex">Papa Lays</p>
+                        <p class="d-flex">Cant : 5</p>
+                      </div>
+
+                    </div>
+                    <div class="col-sm-4" >
+                      <p>P.Uni: S/. 1.00</p>
+                      <p>P.Tot: S/.5.00</p>
+
+                    </div>
+                  </div>
+
+                  <hr>
+
+                  <div class="row" >
+                    <div class="col-sm-8 d-flex justify-content-center">
+                      <div class="col-sm-7 " style="background-color: yellow;height: 150px; width: 250px;"></div>
+                      <div class="col-sm-5 ">
+                        <p class="d-flex">Fideo Sayon</p>
+                        <p class="d-flex">Cant : 5</p>
+                      </div>
+
+                    </div>
+                    <div class="col-sm-4" >
+                      <p>P.Uni: S/. 1.00</p>
+                      <p>P.Tot: S/.5.00</p>
+
+                    </div>
+                  </div>
+
+                  <hr>
+
+                  <dl class="row">
+                    <dt class="col-sm-8">
+                      Total
+                    </dt>
+                    <dt class="col-sm-4">
+                      S/. 10.00
+                    </dt>
+                  </dl>
+                </div>
+
+              </div>
+              <!--/.Card-->
+
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <div class="container-fluid N-footer ">
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="row">
+                <div class="col-lg-4" >
+                    <a class="N-footer mr-3 "><i class="fas fa-hourglass-half N-letra3"></i></a>
+                    <a class="N-footer mr-3 "><i class="fas fa-tags N-letra3"></i></a>
+                    <a class="N-footer mr-3"><i class="fas fa-truck N-letra3"></i></a>
+                    <a class="N-footer mr-3"><i class="fas fa-shopping-basket N-letra3"></i></a>
+                    
+                    
+                    
+                    
+                    
+                </div>
+
+                <div class="col-sm-12 col-lg-4" >
+                    <div class="row justify-content-center align-items-center flex-wrap">
+                        <div class="col-lg-5 N-fondoFooter " style="height: 40px;">
+                            
+                            <a class="N-footer "><i class="fab fa-instagram N-letra mr-2"> </i></a>
+                            <a class="N-footer "><i class="fab fa-twitter N-letra mr-2"> </i></a>
+                            <a class="N-footer " ><i class="fab fa-facebook-f N-letra mr-2"> </i></a>
+                            
+                            <a class="N-footer "><i class="fab fa-linkedin-in N-letra mr-2"></i></a>
+                            <a class="N-footer "><i class="fab fa-whatsapp N-letra mr-2"></i></a>
+                            <a class="N-footer "><i class="fab fa-pinterest-p N-letra mr-2"></i></a>
+                            
+                        </div>
+
+                        <div class="col-lg-4 N-letra">
+                            <span>Nosotros</span>
+                            <span>Contacto</span>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/js/all.min.js"></script>
+</body>
+
+</html>
