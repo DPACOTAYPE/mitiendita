@@ -27,44 +27,50 @@
 <main class="d-main">
     <section class="container d-section">
         <h2 class="text-center d-h2">REGISTRAR BODEGA</h2>
-        <form class="d-form-rb">
-            <div class="form-row">
-                <div class="form-group col-6">
-                    <label for="nombre" class="col-form-label col-form-label-lg d-label">NOMBRE</label>
-                    <input type="text" class="form-control form-control-lg d-input" id="nombre"
-                           placeholder="Diana Sanchez Pérez">
+        <div class="row">
+            <form class="d-form-rb col-10">
+                <div class="form-row">
+                    <div class="form-group col-6">
+                        <label for="nombre" class="col-form-label col-form-label-lg d-label">NOMBRE</label>
+                        <input type="text" class="form-control form-control-lg d-input" id="nombre"
+                               placeholder="Diana Sanchez Pérez">
 
-                    <label for="correo" class="col-form-label col-form-label-lg d-label">CORREO</label>
-                    <input type="email" class="form-control form-control-lg d-input" id="correo"
-                           placeholder="codigotec@gmail.com">
+                        <label for="correo" class="col-form-label col-form-label-lg d-label">CORREO</label>
+                        <input type="email" class="form-control form-control-lg d-input" id="correo"
+                               placeholder="codigotec@gmail.com">
 
-                    <label for="contrasenia" class="col-form-label col-form-label-lg d-label">CONTRASEÑA</label>
-                    <input type="password" class="form-control form-control-lg d-input" id="contrasenia"
-                           aria-describedby="ayudacontrasenia">
-                    <small id="ayudacontrasenia" class="form-text text-justify">La contraseña debe contener por lo menos 8
-                        caracteres entre números y letras</small>
+                        <label for="contrasenia" class="col-form-label col-form-label-lg d-label">CONTRASEÑA</label>
+                        <input type="password" class="form-control form-control-lg d-input" id="contrasenia"
+                               aria-describedby="ayudacontrasenia">
+                        <small id="ayudacontrasenia" class="form-text text-justify">La contraseña debe contener por lo
+                            menos 8
+                            caracteres entre números y letras</small>
 
+                    </div>
+
+                    <div class="form-group col-6">
+                        <label for="ruc" class="col-form-label col-form-label-lg d-label ml-4">RUC</label>
+                        <input type="number" class="form-control form-control-lg d-input ml-4" id="ruc"
+                               placeholder="10586975755">
+
+                        <label for="telefono" class="col-form-label col-form-label-lg d-label ml-4">TELEFONO</label>
+                        <input type="number" class="form-control form-control-lg d-input ml-4" id="telefono"
+                               placeholder="9865975896">
+
+                        <label for="direccion" class="col-form-label col-form-label-lg d-label ml-4">DIRECCION</label>
+                        <input type="text" class="form-control form-control-lg d-input ml-4" id="direccion">
+
+                    </div>
                 </div>
 
-                <div class="form-group col-6">
-                    <label for="ruc" class="col-form-label col-form-label-lg d-label ml-4">RUC</label>
-                    <input type="number" class="form-control form-control-lg d-input ml-4" id="ruc" placeholder="10586975755">
+                <button type="submit" class="btn btn-primary btn-block w-50 mx-auto mt-4 d-button">REGISTRAR</button>
 
-                    <label for="telefono" class="col-form-label col-form-label-lg d-label ml-4">TELEFONO</label>
-                    <input type="number" class="form-control form-control-lg d-input ml-4" id="telefono" placeholder="9865975896">
+            </form>
+        </div>
 
-                    <label for="direccion" class="col-form-label col-form-label-lg d-label ml-4">DIRECCION</label>
-                    <input type="text" class="form-control form-control-lg d-input ml-4" id="direccion">
-
-                </div>
-            </div>
-
-            <button type="submit" class="btn btn-primary btn-block w-50 mx-auto mt-4 d-button">REGISTRAR</button>
-
-        </form>
     </section>
 </main>
-<footer class="d-footer">
+<footer class="d-footer w-100">
     <h3>Nosotros</h3>
     <h3>Contacto</h3>
 </footer>
