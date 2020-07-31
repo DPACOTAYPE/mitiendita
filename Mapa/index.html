@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>bootstrap&middot;geosearch</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- CSS -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+ 
+
+    <!-- Load Leaflet from CDN-->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet-src.js"></script>
+
+    <script src="https://unpkg.com/esri-leaflet@2.3.3/dist/esri-leaflet-debug.js"></script>
+
+    <script src="https://unpkg.com/esri-leaflet-geocoder@2.3.2/dist/esri-leaflet-geocoder-debug.js"></script>
+
+    <!-- this demo plugin bundles only its own code -->
+    <script src="./built/bootstrap-geocoder.js"></script>
+    <link rel="stylesheet" href="./pago.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+
+    <style type="text/css">
+
+
+
+      #map {
+        
+        height: 400px;
+        width: 100%;
+        
+      }
+
+      .container{
+        border: 1px solid red;
+      }
+
+    </style>
+  </head>
+
+  <body class="bg-light">
+
+    <nav class="navbar navbar-expand-sm navbar-dark bg-primary">
+      <div class="col-lg-3">
+          <a class="navbar-brand" href="#"><i class="fas fa-shopping-bag N-cartera mr-2"></i>
+              <h3 class="d-inline">MI TIENDITA</h3>
+          </a>
+      </div>
+
+      <div class="col-lg-6 N-letra">
+          <h5>Siempre a la mano</h5>
+      </div>
+
+      <div class="col-lg-3 ">
+          <div class="row">
+              <a class="col-4 N-links" href="#">
+                  <div class="col-12 text-center"><i class="fas fa-handshake N-letra2"></i></div>
+                  <div class="col-12">Afiliate</div>
+              </a>
+              <a class="col-4 N-links" href="#">
+                  <div class="col-12 text-center"><i class="fas fa-user N-letra2"></i></div>
+                  <div class="col-12">cuenta</div>
+              </a>
+              <a class="col-4 N-links" href="#">
+                  <div class="col-12 text-center "><i class="fas fa-shopping-cart N-letra2"></i></div>
+                  <div class="col-12">carrito</div>
+              </a>
+          </div>
+      </div>
+
+
+  </nav>
+<section>
+    <div class="container-fluid">
+
+      <div class="row justify-content-center mt-3"> 
+<!-- div input donde colocamos nuestra direccion -->
+        <div class="form-group col-9">
+          <input class="form-control" type="text" id="address" autocomplete="on" placeholder="Introduce tu direccion" />
+        </div>
+      </div>  
+
+<!-- div donde dibujara al mapa -->      
+      <div class="row justify-content-center">  
+        <div class="col-9 border" id="map">
+        </div>  
+      </div>  
+      
+      
+      <div class="row">
+
+        <div class="col-6">
+      <div class="card mt-3" style="width: 100%;">
+        
+        <div class="card-body">
+          <h5 class="card-title">Tienda 1</h5>
+          <p class="card-text">Somos una tienda amigable que nos gusta vender gel para manos.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="col-6">
+      <div class="card mt-3" style="width: 100%;">
+        
+        <div class="card-body">
+          <h5 class="card-title">Tienda 2</h5>
+          <p class="card-text">Somos una tienda amigable que nos gusta vender detergentes.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+    <div class="col-6">
+      <div class="card mt-3" style="width: 100%;">
+        
+        <div class="card-body">
+          <h5 class="card-title">Tienda 3</h5>
+          <p class="card-text">Somos una tienda amigable que nos gusta vender alimentos.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+    <div class="col-6">
+      <div class="card mt-3" style="width: 100%;">
+        
+        <div class="card-body">
+          <h5 class="card-title">Tienda 4</h5>
+          <p class="card-text">Somos una tienda amigable que nos gusta vender pilas.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+    </div>
+
+
+    </div>
+
+</section>
+
+<div class="container-fluid N-footer ">
+  <div class="row">
+      <div class="col-lg-12">
+          <div class="row">
+              <div class="col-lg-4" >
+                  <a class="N-footer mr-3 "><i class="fas fa-hourglass-half N-letra3"></i></a>
+                  <a class="N-footer mr-3 "><i class="fas fa-tags N-letra3"></i></a>
+                  <a class="N-footer mr-3"><i class="fas fa-truck N-letra3"></i></a>
+                  <a class="N-footer mr-3"><i class="fas fa-shopping-basket N-letra3"></i></a>
+                  
+                  
+                  
+                  
+                  
+              </div>
+
+              <div class="col-sm-12 col-lg-4" >
+                  <div class="row justify-content-center align-items-center flex-wrap">
+                      <div class="col-lg-5 N-fondoFooter " style="height: 40px;">
+                          
+                          <a class="N-footer "><i class="fab fa-instagram N-letra mr-2"> </i></a>
+                          <a class="N-footer "><i class="fab fa-twitter N-letra mr-2"> </i></a>
+                          <a class="N-footer " ><i class="fab fa-facebook-f N-letra mr-2"> </i></a>
+                          
+                          <a class="N-footer "><i class="fab fa-linkedin-in N-letra mr-2"></i></a>
+                          <a class="N-footer "><i class="fab fa-whatsapp N-letra mr-2"></i></a>
+                          <a class="N-footer "><i class="fab fa-pinterest-p N-letra mr-2"></i></a>
+                          
+                      </div>
+
+                      <div class="col-lg-4 N-letra">
+                          <span>Nosotros</span>
+                          <span>Contacto</span>
+                      </div>
+                  </div>
+
+              </div>
+
+          </div>
+      </div>
+  </div>
+
+</div>
+
+
+  <script>
+      var map = L.map('map').setView([45.5165, -122.6764], 3);
+      L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '&copy; <a href="https://osm.org/copyright">OpenStreetMap</a> contributors'
+      }).addTo(map);
+
+      var search = L.esri.BootstrapGeocoder.search({
+        inputTag: 'address',
+        placeholder: 'Introduce tu direccion'
+      }).addTo(map);
+
+      search.on('results', function(e){
+        console.log(e.latlng);
+        map.invalidateSize();
+      });
+    </script>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/js/all.min.js"></script>  
+</body>
+</html>
