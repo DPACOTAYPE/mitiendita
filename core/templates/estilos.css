@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+.d-login{
+ height: 100vh;
+ font-family: Roboto;
+
+
+
+}
+.d-header{
+height:106px;
+box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.16);
+background-image: linear-gradient(to bottom, #7d001a, #ff001a);
+margin-bottom:57px;
+}
+
+.d-main{
+min-height:calc(100%-271px);
+}
+.d-footer{
+margin-top:22px;
+height:86px;
+border: solid 1px #707070;
+background-image: linear-gradient(to bottom, #fa001a, #7f001a);
+
+}
+
+.d-section{
+
+border-radius: 30px;
+border: solid 1px #1e64b5;
+background-color: rgba(88, 90, 106, 0.09);
+}
+.d-h2{
+padding:30px;
+font-weight:bold;
+color: #161414;
+}
+
+.d-h2tiendita{
+color: #434343;
+font-family: Verdana;
+}
+.d-input{
+border: solid 1px #1e64b5 !important;
+}
+.d-form{
+height:600px;
+width:800px;
+padding-left:300px;
+
+}
+
+
+
+.d-form-rb{
+width:900px;
+margin-left:110px;
+height:600px;
+
+}
+.d-label{
+font-weight:bold;
+color: #686868;
+letter-spacing: 0.08px;
+}
+
+.d-small{
+color: rgba(13, 44, 117, 0.7);
+font-weight:bold;
+font-size:20px;
+}
+.d-intruccion{
+color: rgba(54, 57, 64, 0.7);
+font-size:20px;
+
+}
+
+.d-button{
+border: solid 1px #141313;
+background-color: rgba(30, 100, 181, 0.18);
+color: #686868;
+font-weight:bold;
+font-size:20px;
+}
+
+.d-titulo1{
+ font-family: Verdana;
+ color: #f1f1f1;
+}
+.d-titulo2{
+ padding-left:113px;
+ padding-top:15px;
+ font-weight: 300;
+ font-stretch: condensed;
+ letter-spacing: 1.2px;
+ color: #ffffff;
+}
+
+.d-img{
+ opacity: 0.8;
+ border-radius: 20px;
+}
+
+.d-iconos{
+width:1040px;
+font-family: Roboto;
+letter-spacing: 0.6px;
+color: #000000;
+}
+
+.carousel-cell img{
+  margin-top:18px;
+  display: block;
+  height: 320px;
+  margin-right: 20px;
+  border-radius: 20px;
+  box-shadow: 8px 8px 6px 0 rgba(0, 0, 0, 0.78);
+  border: solid 1px #e52828;
+
+  }
+
+.d-datos{
+  border-radius: 15px;
+  box-shadow: 0 3px 20px 0 rgba(0, 0, 0, 0.91);
+  background-color: rgba(16, 5, 9, 0.02);
+  border: solid 1px #707070;
+
+}
+
+.d-productos{
+position:relative;
+margin-top:100px;
+margin-left:100px;
+
+}
+
+.d-card-contenido{
+z-index: -5;
+position:relative;
+height:340px;
+border-radius: 10px;
+border: solid 2px #400707;
+padding-top:140px;
+
+}
+.d-car-img{
+transform:translateX(22px);
+width:240px !important;
+position: absolute;
+z-index: -3;
+bottom:180px;
+height:200px;
+border-radius: 15px;
+border: solid 1px #5e0707;
+background-image: linear-gradient(to bottom, transparent, #E6E5E5, transparent);
+
+
+}
+
+.d-pro-img{
+height:180px;
+width:160px;
+
+}
+
+.d-input-cantidad{
+background-color: #EDEAEA;
+width:60px;
+height:60px;
+font-size:25px;
+transform:translate(-460%,420%);
+font-family: Verdana;
+font-weight:bold;
+
+}
+
+.btn-suma,.btn-menos{
+background-color: #EDEAEA;
+width:30px;
+height:30px;
+font-size:25px;
+font-family: Verdana;
+font-weight:bold;
+margin-left:50px;
+margin-bottom:10px;
+margin-top:4px;
+}
+
+.d-icon-sum,.d-icon-men{
+transform:translate(-10px,-10px);
+}
+
+.d-button-agregar{
+border-radius: 10px;
+border: solid 1px #707070;
+background-color: #d21414;
+color:EFE6D6;
+font-size:25px;
+font-family: Verdana;
+font-weight:bold;
+transform:translate(60px,-100px);
+}
+
+.d-titulo-prod{
+color: #7e6b6b;
+font-family: Verdana;
+font-size:35px;
+
+
+}
+
+hr{
+background-color:#9D0909;
+height:3px;
+
+}
+
