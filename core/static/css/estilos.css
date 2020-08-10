@@ -11,3 +11,19 @@ height:calc(100% - 192px);
 footer{
 height:86px;
 }
+
+.navbar{
+ background: rgb(36,0,0);
+ background: linear-gradient(90deg, rgba(36,0,0,1) 0%, rgba(193,0,57,1) 100%);
+ padding: 0px !important;
+}
+
+.nav-icon-and-text{
+ width: 60px;
+ padding-right: 20px;
+}
+
+.nav-slogan{
+ color: azure;
+ padding-left: 10px;
+}
